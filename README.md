@@ -1,21 +1,21 @@
-# í¶€ Self-Study Rust
+# ï¿½ï¿½ï¿½ Self-Study Rust
 
 Este repositÃ³rio documenta meu aprendizado completo da linguagem **Rust**, seguindo um plano de estudos de **12 semanas**, com foco em fundamentos sÃ³lidos, boas prÃ¡ticas e projetos prÃ¡ticos.
 
 ---
 
-## í¾¯ Objetivo
+## ï¿½ï¿½ï¿½ Objetivo
 
 Dominar Rust de forma progressiva, aplicando os conceitos em pequenos projetos semanais (CLI tools, APIs, bibliotecas e aplicaÃ§Ãµes concorrentes), desenvolvendo nÃ£o apenas o conhecimento tÃ©cnico, mas tambÃ©m boas prÃ¡ticas de engenharia de software.
 
 ---
 
-## í·“ï¸ Estrutura de Estudo
+## ï¿½ï¿½ï¿½ï¸ Estrutura de Estudo
 
 | Semana | TÃ³pico Principal | Status |
 |:------:|------------------|:------:|
-| 01 | Fundamentos e primeiros programas | í¿¡ Em andamento |
-| 02 | Ownership e Borrowing | âšª Pendente |
+| 01 | Fundamentos e primeiros programas | Concluido |
+| 02 | Ownership e Borrowing | Concluido |
 | 03 | Structs e Enums | âšª Pendente |
 | 04 | ColeÃ§Ãµes, Iteradores e Closures | âšª Pendente |
 | 05 | Tratamento de erros e Result | âšª Pendente |
@@ -28,11 +28,11 @@ Dominar Rust de forma progressiva, aplicando os conceitos em pequenos projetos s
 | 12 | Projeto Final | âšª Pendente |
 
 Legenda:  
-í¿¢ ConcluÃ­doâ€ƒí¿¡ Em andamentoâ€ƒâšª Pendente
+ï¿½ï¿½ï¿½ ConcluÃ­doâ€ƒï¿½ï¿½ï¿½ Em andamentoâ€ƒâšª Pendente
 
 ---
 
-## í·± Estrutura de DiretÃ³rios
+## ï¿½ï¿½ï¿½ Estrutura de DiretÃ³rios
 
 ```bash
 self-study-rust/
