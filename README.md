@@ -1,16 +1,16 @@
-# ��� Self-Study Rust
+#Self-Study Rust
 
 Este repositório documenta meu aprendizado completo da linguagem **Rust**, seguindo um plano de estudos de **12 semanas**, com foco em fundamentos sólidos, boas práticas e projetos práticos.
 
 ---
 
-## ��� Objetivo
+##Objetivo
 
 Dominar Rust de forma progressiva, aplicando os conceitos em pequenos projetos semanais (CLI tools, APIs, bibliotecas e aplicações concorrentes), desenvolvendo não apenas o conhecimento técnico, mas também boas práticas de engenharia de software.
 
 ---
 
-## ���️ Estrutura de Estudo
+##Estrutura de Estudo
 
 | Semana | Tópico Principal | Status |
 |:------:|------------------|:------:|
@@ -28,11 +28,11 @@ Dominar Rust de forma progressiva, aplicando os conceitos em pequenos projetos s
 | 12 | Projeto Final | ⚪ Pendente |
 
 Legenda:  
-��� Concluído ��� Em andamento ⚪ Pendente
+Concluído Em andamento ⚪ Pendente
 
 ---
 
-## ��� Estrutura de Diretórios
+##Estrutura de Diretórios
 
 ```bash
 self-study-rust/
