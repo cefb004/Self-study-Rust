@@ -44,6 +44,26 @@ fn complete_task(tasks: &mut Vec<Task>, id: u64) -> Option<()> {
     Some(())
 }
 
+fn list_tasks(tasks: &Vec<Task>) {
+    tasks.iter().for_each(|task| {
+        println!(
+            "- [{}] {} (id={})",
+            if task.completed { "x" } else { " " },
+            task.title,
+            task.id
+        );
+    });
+}
+
+fn completed_tasks(tasks: &Vec<Task>) -> Vec<&Task> {
+    tasks.iter().filter(|task| task.completed).collect()
+}
+
+fn task_titles(tasks: &Vec<Task>) -> Vec<String> {
+    tasks.iter()
+        .map(|task| task.title.clone())
+        .collect()
+}
 
 fn execute_command(command: Command, tasks: &mut Vec<Task>) {
     match command {
@@ -51,15 +71,9 @@ fn execute_command(command: Command, tasks: &mut Vec<Task>) {
             add_task(tasks, title);
         }
         Command::List => {
-            for task in tasks {
-                println!(
-                    "- [{}] {} (id={})",
-                    if task.completed { "x" } else { " " },
-                    task.title,
-                    task.id
-                );
-            }
+            list_tasks(tasks);
         }
+
         Command::Complete(id) => {
             if complete_task(tasks, id).is_some() {
                 println!("Task {} completed", id);
@@ -86,5 +100,15 @@ fn main() {
     execute_command(Command::List, &mut tasks);
     execute_command(Command::Complete(1), &mut tasks);
     execute_command(Command::List, &mut tasks);
+
+    let done = completed_tasks(&tasks);
+    println!("Completed tasks: {:?}", done);
+
+    let titles = task_titles(&tasks);
+    println!("Task titles: {:?}", titles);
+    
+    let only_completed = |task: &&Task| task.completed;
+    let done: Vec<&Task> = tasks.iter().filter(only_completed).collect();
+    println!("Done via closure: {:?}", done);
 
 }
