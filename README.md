@@ -1,6 +1,6 @@
 # Self-Study Rust
 
-Este repositório documenta meu aprendizado completo da linguagem **Rust**, seguindo um plano de estudos de **12 semanas**, com foco em fundamentos sólidos, boas práticas e projetos práticos.
+Este repositório documenta meu aprendizado completo da linguagem **Rust**, seguindo um plano de estudos de **13 semanas**, com foco em fundamentos sólidos, boas práticas e projetos práticos.
 
 ---
 
@@ -29,7 +29,7 @@ Dominar Rust de forma progressiva, aplicando os conceitos em pequenos projetos s
 | 13 | Bônus: Fractal Multithread em Rust | ⚪ Pendente | 
 
 Legenda:  
-Concluído / Em andamento /⚪ Pendente
+Concluído / Em andamento/ ⚪ Pendente
 
 ---
 
