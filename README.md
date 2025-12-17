@@ -17,7 +17,7 @@ Dominar Rust de forma progressiva, aplicando os conceitos em pequenos projetos s
 | 01 | Fundamentos e primeiros programas | Concluido |
 | 02 | Ownership e Borrowing | Concluido |
 | 03 | Structs e Enums | Concluido |
-| 04 | Coleções, Iteradores e Closures | ⚪ Pendente |
+| 04 | Coleções, Iteradores e Closures | Concluido |
 | 05 | Tratamento de erros e Result | ⚪ Pendente |
 | 06 | Módulos, Crates e Workspaces | ⚪ Pendente |
 | 07 | Concorrência e Multithreading | ⚪ Pendente |
