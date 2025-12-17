@@ -26,9 +26,10 @@ Dominar Rust de forma progressiva, aplicando os conceitos em pequenos projetos s
 | 10 | Desenvolvimento de API Web com Axum | ⚪ Pendente |
 | 11 | Integração com outras linguagens | ⚪ Pendente |
 | 12 | Projeto Final | ⚪ Pendente |
+| 13 | Bônus: Fractal Multithread em Rust | ⚪ Pendente | 
 
 Legenda:  
-Concluído / Em andamento / ⚪ Pendente
+Concluído / Em andamento /⚪ Pendente
 
 ---
 
